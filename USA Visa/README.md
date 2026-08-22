@@ -54,11 +54,7 @@ EDA and feature engineering on a large US employment-based immigration (PERM lab
 - **Target preparation:** removed Withdrawn; merged Certified-Expired into Certified; binary mapping 1/0 (92.8% / 7.2% - imbalanced)
 - **Null handling:** dropped all-empty rows/columns; mode imputation (employer_state, class_of_admission, country_of_citizenship, employer_city, employer_name, pw_source_name_9089); median imputation (pw_amount_9089); mode-fill of "nan"/"None" strings in pw_soc_code
 - **Date handling:** pd.to_datetime on decision_date; derived year/month/day
-- **Text normalization:** str.upper() on cities/employers; job titles lowercased, split on '-', 'ii', '/', 'sr.'->'senior'; state name standardization via abbreviation dict
-- **Numeric coercion:** pw_amount_9089 comma-stripped -> float; pw_soc_code cleaned -> int
-- **Encoding:** LabelEncoder on all 9 selected columns
-- **Column filtering:** kept columns with >=330,000 non-null values; final 9 columns chosen by index
-- **Unresolved:** some columns (employer_address_1, employer_postal_code, job_info_work_city/state, pw_soc_title, pw_unit_of_pay_9089) still had small null counts and were excluded rather than imputed
+- **Text normalization:** str.upper() on cities/employers; job titles lowercased, split on '-', 'ii', '/', 'sr.'->'senior'; state name standardization via 
 
 ## 7. Visualizations Used
 | Chart | What it shows |
