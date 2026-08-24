@@ -200,11 +200,6 @@ A collection of 8 EDA (Exploratory Data Analysis) projects covering diverse doma
 - **Common techniques:** null/duplicate checks, type corrections, datetime decomposition, one-hot/label encoding, median/mode imputation, univariate -> bivariate -> multivariate structure, correlation heatmaps
 - **ML algorithms used:** **none anywhere** - the folder contains zero trained models and zero evaluation metrics (only preprocessing + train_test_split)
 
-## Skills Demonstrated
-- Data cleaning: dirty strings, typos, duplicates, mixed dtypes, missing-value strategies
-- Feature engineering: datetime parsing, encoding, derived features
-- EDA: ~50 charts across projects (count/hist/box/violin/pie/heatmap/swarm/pairplot/3D/interactive Plotly)
-- Handling messy, large, real-world data (USA Visa: 374K x 154)
 
 ## Strongest Projects (for resume/interviews)
 1. **USA Visa** - scale, messy-data handling, target engineering
