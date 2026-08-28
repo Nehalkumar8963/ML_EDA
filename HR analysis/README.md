@@ -77,7 +77,4 @@ Context: evaluating employee performance/efficiency is "the most difficult task"
 - Data-cleaning flaw: nulls replaced with string "0" (wrong type for numeric ManagerID)
 - Redundant filler cells (df.columns printed 10+ times)
 - Unlabeled/mislabeled charts (x-axis "Recruitment score" should be source; duplicate plt.ylabel; no titles)
-- Some insights factually off (187 count is MarriedID==0 i.e. NOT married; "4.5 percent" vs ~6.4-7.4% shown)
-- Numerous typos ("marries", "emloyees", "mdeian", "enagement", etc.)
-- "Internal homework" sections mix questions into code cells with no narrative answers
-- No correlation analysis / heatmap, no train/test split, no feature selection
+-
