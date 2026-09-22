@@ -79,5 +79,3 @@ Task given by instructor Krish Naik: (1) import the dataset, (2) do proper EDA a
 - Undefined identifiers: cell 53 uses `corr` (never assigned); cell 67 calls `barplots(...)` (only `barchart` defined) - stale outputs not matching current code
 - Region countplot bug: both charts plot the full dataset, not the region-filtered data, so the two "region" charts are identical
 - Output/code mismatch: cell 69 stores 7 figures for a 6-feature loop; duplicated assignment `dftemp = dftemp = ...`
-- Duplicate heading "3.5 Exploratory Data Analysis (EDA)"; empty final code cell
-- Dataset version discrepancy between notebook outputs and current CSV on disk
