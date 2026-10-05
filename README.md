@@ -215,4 +215,4 @@ For each project be ready to explain: dataset size/columns/target, 3-5 concrete 
 2. **Add conclusions** - every notebook ends abruptly; add summary markdown cells
 3. **Fix known bugs** - Playstore Size conversion, HR string-"0" fill, Chronic contradictory encodings, Travel's undocumented 15% row drop, Forest's broken region plots
 4. **Document datasets** - several notebooks have no stated source or problem statement
-5. **Title/label charts** and save key figures for portfolio use
+
